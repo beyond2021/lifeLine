@@ -14,6 +14,12 @@
 		22BD96D81BCCA41B00DE4422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BD96D61BCCA41B00DE4422 /* LaunchScreen.storyboard */; };
 		22BD96E31BCCA41B00DE4422 /* LifeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96E21BCCA41B00DE4422 /* LifeLineTests.swift */; };
 		22BD96EE1BCCA41C00DE4422 /* LifeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96ED1BCCA41C00DE4422 /* LifeLineUITests.swift */; };
+		22BD96FD1BCF39D300DE4422 /* AFImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FB1BCF39D300DE4422 /* AFImageExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		22BD96FE1BCF39D300DE4422 /* AFImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FB1BCF39D300DE4422 /* AFImageExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		22BD96FF1BCF39D300DE4422 /* AFImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FB1BCF39D300DE4422 /* AFImageExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		22BD97001BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FC1BCF39D300DE4422 /* AFImageVIewExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		22BD97011BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FC1BCF39D300DE4422 /* AFImageVIewExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		22BD97021BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD96FC1BCF39D300DE4422 /* AFImageVIewExtension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		22BD96E91BCCA41B00DE4422 /* LifeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BD96ED1BCCA41C00DE4422 /* LifeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLineUITests.swift; sourceTree = "<group>"; };
 		22BD96EF1BCCA41C00DE4422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BD96FB1BCF39D300DE4422 /* AFImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFImageExtension.swift; sourceTree = "<group>"; };
+		22BD96FC1BCF39D300DE4422 /* AFImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFImageVIewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		22BD96CC1BCCA41B00DE4422 /* LifeLine */ = {
 			isa = PBXGroup;
 			children = (
+				22BD97031BCF39ED00DE4422 /* Image Helper */,
 				22BD96CD1BCCA41B00DE4422 /* AppDelegate.swift */,
 				22BD96CF1BCCA41B00DE4422 /* ViewController.swift */,
 				22BD96D11BCCA41B00DE4422 /* Main.storyboard */,
@@ -123,6 +132,15 @@
 				22BD96EF1BCCA41C00DE4422 /* Info.plist */,
 			);
 			path = LifeLineUITests;
+			sourceTree = "<group>";
+		};
+		22BD97031BCF39ED00DE4422 /* Image Helper */ = {
+			isa = PBXGroup;
+			children = (
+				22BD96FB1BCF39D300DE4422 /* AFImageExtension.swift */,
+				22BD96FC1BCF39D300DE4422 /* AFImageVIewExtension.swift */,
+			);
+			name = "Image Helper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +275,8 @@
 			files = (
 				22BD96D01BCCA41B00DE4422 /* ViewController.swift in Sources */,
 				22BD96CE1BCCA41B00DE4422 /* AppDelegate.swift in Sources */,
+				22BD96FD1BCF39D300DE4422 /* AFImageExtension.swift in Sources */,
+				22BD97001BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BD97011BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */,
+				22BD96FE1BCF39D300DE4422 /* AFImageExtension.swift in Sources */,
 				22BD96E31BCCA41B00DE4422 /* LifeLineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BD97021BCF39D300DE4422 /* AFImageVIewExtension.swift in Sources */,
+				22BD96FF1BCF39D300DE4422 /* AFImageExtension.swift in Sources */,
 				22BD96EE1BCCA41C00DE4422 /* LifeLineUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

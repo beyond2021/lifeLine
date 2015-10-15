@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.bounds
-        HeartBeatImageView.addSubview(blurEffectView)
+      //  HeartBeatImageView.addSubview(blurEffectView)
         
        // view.addSubview(blurEffectView)
     }
